@@ -5,3 +5,11 @@
 - php artisan migrate
 - npm install
 - npm run dev
+
+## MailTrap Configration
+- MAIL_MAILER=smtp
+- MAIL_HOST=sandbox.smtp.mailtrap.io
+- MAIL_PORT=2525
+- MAIL_USERNAME=c0069f5fb4e288
+- MAIL_PASSWORD=043b68381771ab
+- MAIL_ENCRYPTION=tls
