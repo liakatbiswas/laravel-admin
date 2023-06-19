@@ -16,3 +16,7 @@
 
 ## Email Verification & Model Preparation
 - Before starting we have to implements Illuminate\Contracts\Auth\MustVerifyEmail to App\Models\User model.
+
+## Login Page & Navbar Logo Change
+- Keep your logo to public & write the below code to application-logo.blade.php
+- <img src="{{ asset('logo/logo.png') }}" width="80" height="80">
