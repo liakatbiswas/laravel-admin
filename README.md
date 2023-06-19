@@ -20,3 +20,10 @@
 ## Login Page & Navbar Logo Change
 - Keep your logo to public & write the below code to application-logo.blade.php
 - <img src="{{ asset('logo/logo.png') }}" width="80" height="80">
+
+## Change login email to user name
+- change register.blade.php
+- change User model
+- change RegisteredUserController.php store method
+- change login.blade.php
+- change LoginRequest.php
