@@ -13,3 +13,6 @@
 - MAIL_USERNAME=c0069f5fb4e288
 - MAIL_PASSWORD=043b68381771ab
 - MAIL_ENCRYPTION=tls
+
+## Email Verification & Model Preparation
+- Before starting we have to implements Illuminate\Contracts\Auth\MustVerifyEmail to App\Models\User model.
