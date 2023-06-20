@@ -42,3 +42,6 @@
 
 ## change register.blade.php as our template
 - change full register.blade.php according to our template
+
+## change index.blade.php as our template
+- change full index.blade.php according to our template
