@@ -27,3 +27,8 @@
 - change RegisteredUserController.php store method
 - change login.blade.php
 - change LoginRequest.php
+
+## Admin Template Slicing (Admin Dashboard)
+- keep the assets files into public directory.
+- Slice the admin template into header, footer, sidebar, index & master
+- change the route 'dashboard' to 'admin.index'
