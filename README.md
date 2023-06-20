@@ -39,3 +39,6 @@
 - declare the admin.logout route in web.php
 - cut the 'destroy' method from AuthenticatedSessionController.php and paste to AdminController.php
 - redirect 'login' from '/' (home) in destroy method.
+
+## change register.blade.php as our template
+- change full register.blade.php according to our template
