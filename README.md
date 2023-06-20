@@ -32,3 +32,10 @@
 - keep the assets files into public directory.
 - Slice the admin template into header, footer, sidebar, index & master
 - change the route 'dashboard' to 'admin.index'
+
+## logout from Admin Dashboard by destroy method
+- php artisan make:controller AdminController
+- add 'admin.logout' route to header.blade.php 
+- declare the admin.logout route in web.php
+- cut the 'destroy' method from AuthenticatedSessionController.php and paste to AdminController.php
+- redirect 'login' from '/' (home) in destroy method.
