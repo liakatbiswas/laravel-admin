@@ -45,3 +45,5 @@
 
 ## change index.blade.php as our template
 - change full index.blade.php according to our template
+## change forgot-password.blade.php as our template
+- change full forgot-password.blade.php according to our template
