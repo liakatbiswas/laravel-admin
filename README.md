@@ -47,3 +47,10 @@
 - change full index.blade.php according to our template
 ## change forgot-password.blade.php as our template
 - change full forgot-password.blade.php according to our template
+
+## add admin profile page
+- create the 'admin.profile' route in web.php with get method
+- add the 'admin.profile' route in header.blade.php
+- create 'profile' method in AdminController
+- setup the blade file under a directory named profile under admin
+- also set an image to show in admin profile page
