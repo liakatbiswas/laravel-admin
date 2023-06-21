@@ -71,3 +71,11 @@
 ## Toastr Message Display after any change
 - add Toastr CSS, JS & Other code to master.blade.php 
 - add Toastr message where needed
+
+## Admin Password Change form Dashboard
+- add change password portion in header & set the 'change.password' route
+- add the 'change.password' route in web.php 
+- create 'changePassword' method in AdminController
+- create change-password.blade.php under admin/profile directory
+- set the 'update.password' route in change-password page form action
+- create 'updatePassword' method in AdminController
