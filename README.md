@@ -54,3 +54,12 @@
 - create 'profile' method in AdminController
 - setup the blade file under a directory named profile under admin
 - also set an image to show in admin profile page
+
+## Update admin information
+- add the 'edit.profile' route in admin/profile/index page
+- add the 'edit.profile' named route in web.php
+- create edit page under admin/profile directory
+- write the 'edit' method in AdminController
+- set the 'store.profile' route in edit page form action
+- create 'store' method in AdminController
+- change the user migration Schema as demand
