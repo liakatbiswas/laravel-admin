@@ -63,3 +63,7 @@
 - set the 'store.profile' route in edit page form action
 - create 'store' method in AdminController
 - change the user migration Schema as demand
+
+## Update Admin info into header.blade.php
+- find the user id in header file
+- set user info (name, image) where needed
