@@ -67,3 +67,7 @@
 ## Update Admin info into header.blade.php
 - find the user id in header file
 - set user info (name, image) where needed
+
+## Toastr Message Display after any change
+- add Toastr CSS, JS & Other code to master.blade.php 
+- add Toastr message where needed
