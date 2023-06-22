@@ -79,3 +79,7 @@
 - create change-password.blade.php under admin/profile directory
 - set the 'update.password' route in change-password page form action
 - create 'updatePassword' method in AdminController
+
+## Old Image Delete and linked to Dashboard
+- if (File::exists($img_path)) {File::delete($img_path);}
+- link dashboard logo to Dashboard

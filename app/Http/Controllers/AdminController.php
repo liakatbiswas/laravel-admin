@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\RedirectResponse;
 
@@ -57,6 +58,12 @@ class AdminController extends Controller
         $data->username = $request->username;
 
         if ($request->file('profile_img')) {
+            // Delete Old Image
+            $img_path = public_path('upload/admin_img/' . $data->profile_img);
+            if (File::exists($img_path)) {
+                File::delete($img_path);
+            }
+
             $file = $request->file('profile_img');
             $fileName = date('YmdHi') . $file->getClientOriginalName();
             $file->move(public_path('upload/admin_img'), $fileName);
